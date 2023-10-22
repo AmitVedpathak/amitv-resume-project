@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 257px 465px;
+    /* height: 100vh; */
+    min-width: 722px;
+    margin: auto;
+}
+.leftSec{
+    display: flex;
+    flex-direction: column;
+}
+.leftSec .topContainer{
+    height: 215px;
+    background-color: blue;
+}
+.leftSec .bottomContainer{
+    height: 80%;
+    background-color: rgb(47 45 45);
+}
+.iconSec{
+    width: 108px;
+    height: 138px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -11px;
+    margin-top: 8px;
+}
+.iconSec .icon{
+   font-size: 105px;
+   color: white;
+  }
+.topContainer .contentSec{
+    text-align: center;
+    color: white;
+    line-height: 24px;
+}
+.topContainer .contentSec h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.bi-github,
+.bi-linkedin{
+    margin-right: 4px;
+}
+.git,
+.linkedIn{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.git a,
+.linkedIn a{
+    color: white;
+    text-decoration: none;
+}
+.bottomContainer .contactSec,
+.bottomContainer .skillsSec,
+.bottomContainer .certificateSec{
+    margin: 25px;
+    color: white;
+    line-height: 28px;
+}
+.bottomContainer .contactSec h2,
+.bottomContainer .skillsSec h2,
+.bottomContainer .certificateSec h2{
+    border-bottom: 1px solid white;
+    margin-bottom: 11px;
+    font-size: 21px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bottomContainer .contactContent,
+.bottomContainer .skillsContent,
+.bottomContainer .certificateContent{
+    padding-left: 7px;
+}
+.bottomContainer .contactContent p:nth-child(even){
+    font-size: 15px;
+    color: #c9c9c9;
+}
+.skillsContent .skillName{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.skillsContent .skillBar{
+    background: white;
+    width: 100%;
+    height: 4px;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    position: relative;
+}
+.skillsContent .skillPer{
+    background: blue;
+    display: inline-block;
+    /* width: 80%; */
+    height: 4px;
+    position: absolute;
+    border-radius: 3px;
+}
+.skillsContent .skill1{
+    width: 80%;
+}
+.skillsContent .skill2{
+    width: 85%;
+}
+.skillsContent .skill3{
+    width: 90%;
+}
+.skillsContent .skill4{
+    width: 92%;
+}
+.skillsContent .skill5{
+    width: 90%;
+}
+.skillsContent .skill6{
+    width: 96%;
+}
+.skillsContent .skill7{
+    width: 98%;
+}
+.skillsContent .skill8{
+    width: 80%;
+}
+.certificateSec .awardIcon{
+    font-size: 20px;
+}
+
+/* Right section begins here */
+
+.rightSec{
+    background-color: rgb(249 249 249);
+    padding: 0px 22px;
+    /* display: flex;
+    flex-direction: column; */
+    border-right: 1px solid #eee6e6;
+}
+.rightSec .objectiveSec h2,
+.rightSec .workExperienceSec>h2,
+.projectsSec>h2,
+.eduSec>h2{
+    border-bottom: 1px solid rgb(15, 15, 15);
+    margin-bottom: 11px;
+    font-size: 21px;
+    margin: 6px 15px;
+    color: blueviolet;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.rightSec .objectiveSec p{
+    margin-bottom: 11px;
+    font-size: 16px;
+    margin: 8px 17px 19px;
+}
+.workExperienceContent .companyName .expIcon,
+.projectName .expIcon,
+.collegeName .expIcon{
+    position: absolute;
+    top: 4px;
+    font-size: 19px;
+}
+.workExperienceContent .companyName,
+.projectName,
+.collegeName{
+    margin: 15px 15px 5px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.workExperienceContent .companyName h2,
+.projectName h2,
+.collegeName h2{
+    margin-left: 31px;
+    font-size: 19px;
+}
+.workExperienceContent .expSecContent,
+.projectContent,
+.collegeContent{
+    margin: 0px 15px 16px;
+}
+.workExperienceContent .expSecContent p,
+.projectContent p,
+.collegeContent p{
+    margin-left: 32px;
+    margin-top: 7px;
+}
